@@ -20,10 +20,6 @@ The simulation is built using `pydrake`'s `DiagramBuilder` to connect the follow
 | **Meshcat Visualizer** | Renders the robot in a browser-based 3D scene with custom lighting and geometry. |
 | **Zero-Order Hold** | Discretizes the control inputs to simulate digital control. |
 
-### The Physics
-The system is modeled as a double integrator system with coupling between the pendulum arm and the wheel.
-* **State Vector:** $x = [\theta_{pendulum}, \theta_{wheel}, \dot{\theta}_{pendulum}, \dot{\theta}_{wheel}]^T$
-* **Control Input:** Torque applied to the reaction wheel.
 
 ## 🔧 Installation & Setup (Ubuntu)
 
